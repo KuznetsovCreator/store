@@ -1,0 +1,1 @@
+export {ManageItemInCart} from './ui/MaganeItemInCart.tsx'

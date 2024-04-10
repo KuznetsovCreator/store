@@ -1,0 +1,1 @@
+export {useFetchAllDealersQuery, dealerApi} from './model/dealerApi.ts'

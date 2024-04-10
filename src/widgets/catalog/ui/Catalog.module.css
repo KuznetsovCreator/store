@@ -1,0 +1,23 @@
+.section {
+  margin: 50px 0;
+}
+.title {
+  margin-bottom: 30px;
+}
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .catalog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .catalog {
+    grid-template-columns: 1fr;
+  }
+}
